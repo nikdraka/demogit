@@ -1,3 +1,4 @@
 library(tidyverse)
 
-data_df <- tibble(x = rnorm(100))
+data_df <- tibble(y = rnorm(100),
+                  x = runif(100))
